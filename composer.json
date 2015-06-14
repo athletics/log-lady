@@ -1,5 +1,5 @@
 {
-	"name": "athletics/manifest-log-lady",
+	"name": "log-lady",
 	"description": "A monolog plugin for WordPress",
 	"type": "wordpress-plugin",
 	"license": "GPLv3",
@@ -17,8 +17,5 @@
 		"psr-4": {
 			"Athletics\\Manifest\\": "src/"
 		}
-	},
-	"extra": {
-		"installer-name": "athletics-loglady"
 	}
 }

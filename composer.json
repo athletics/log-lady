@@ -1,6 +1,6 @@
 {
-	"name": "log-lady",
-	"description": "A monolog plugin for WordPress",
+	"name": "log-lady/log-lady",
+	"description": "Monolog for the Manifest WordPress theme named in honor of Margaret Lanterman",
 	"license": "GPLv3",
 	"authors": [
 		{
@@ -15,7 +15,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Athletics\\Manifest\\": "src/"
+			"Athletics\\LogLady\\": "src/"
 		}
 	}
 }

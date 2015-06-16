@@ -1,11 +1,11 @@
 {
-	"name": "log-lady/log-lady",
+	"name": "athletics/log-lady",
 	"description": "Monolog for the Manifest WordPress theme named in honor of Margaret Lanterman",
 	"license": "GPLv3",
 	"authors": [
 		{
-			"name": "Jameson Proctor",
-			"email": "jameson@athleticsnyc.com"
+			"name": "Athletics",
+			"email": "wordpress@athleticsnyc.com"
 		}
 	],
 	"require": {
@@ -15,7 +15,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Athletics\\LogLady\\": "src/"
+			"Athletics\\Manifest\\": "src/"
 		}
 	}
 }

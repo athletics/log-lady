@@ -1,6 +1,6 @@
 <?php
 
-namespace Athletics\LogLady;
+namespace Athletics\Manifest;
 
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;

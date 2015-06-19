@@ -5,7 +5,6 @@ namespace Athletics\Manifest;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
-
 /**
  * LogLady
  *
@@ -20,15 +19,15 @@ class LogLady extends Logger {
      *
  	 *     Optional. An array of arguments.
  	 *
- 	 *     @type string  name   The logging channel.       Default value is 
+ 	 *     @type string  name   The logging channel.       Default value is
  	 *                          'LogLady'.
  	 *
  	 *     @type string  path   The path to the log file.  Default value is
  	 *                          ABSPATH . 'wp-content/log-lady.log'
  	 *
  	 *     @type string  level  The logging level.         Default value is
- 	 *							Logger::DEBUG
- 	 *     
+     *                          Logger::DEBUG
+ 	 *
  	 * }
      */
 	public function __construct( $args = array() ) {
@@ -41,9 +40,9 @@ class LogLady extends Logger {
 
 		$args = wp_parse_args( $args, $defaults );
 
-		parent::__construct( 
-			$args['name'], 
-			array( new StreamHandler( $args['path'], $args['level'] ) 
+		parent::__construct(
+			$args['name'],
+			array( new StreamHandler( $args['path'], $args['level'] )
 		) );
 
 	}

@@ -27,10 +27,12 @@ require_once( ABSPATH . 'vendor/autoload.php' );
 use Athletics\Manifest\LogLady;
 
 /**
- * This defaults to name - Manifest, path - wp-content/manifest.log, log level - Debug
- * To change any of these defaults pass the following argument(s) wrapped in an array:
- * - 'name'  => 'Manifest'
- * - 'path'  => ABSPATH . 'wp-content/manifest.log'
+ * This defaults to name - LogLady, path - wp-content/log-lady.log, log level - 
+ * Debug
+ *
+ * To change any of these defaults, pass the following argument(s) in an array:
+ * - 'name'  => 'LogLady'
+ * - 'path'  => ABSPATH . 'wp-content/log-lady.log'
  * - 'level' => 'Logger::DEBUG'
  */
 $log = new LogLady();

@@ -21,24 +21,25 @@ Require Composer's autoload.php from your theme's functions.php. For example, if
 require_once( ABSPATH . 'vendor/autoload.php' );
 ```
 
+TKTKT
+
 ```php
 <?php
 
 use Athletics\Manifest\LogLady;
 
-/**
- * This defaults to name - LogLady, path - wp-content/log-lady.log, log level - 
- * Debug
- *
- * To change any of these defaults, pass the following argument(s) in an array:
- * - 'name'  => 'LogLady'
- * - 'path'  => ABSPATH . 'wp-content/log-lady.log'
- * - 'level' => 'Logger::DEBUG'
- */
 $log = new LogLady();
-
-/**
- * Writing to the log is as easy as:
- */
-$log->debug( 'Debug!' )
+$log->debug( 'Debug!' );
 ```
+
+This defaults to a log named LogLady at the path wp-content/log-lady.log with a log level of Debug.
+
+To change any of these defaults, pass the following argument(s) in an array:
+
+* 'name'  => 'LogLady'
+* 'path'  => ABSPATH . 'wp-content/log-lady.log'
+* 'level' => 'Logger::DEBUG'
+
+Acknowledgements
+----------------
+Special thanks to [Matthew Spencer](https://github.com/matthewspencer) for listening and advising.

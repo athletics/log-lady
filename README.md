@@ -1,5 +1,7 @@
 # LogLady
 
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+
 A [Monolog](https://github.com/Seldaek/monolog) plugin for WordPress named in honor of [Margaret Lanterman](https://en.wikipedia.org/wiki/Log_Lady). The plugin makes a [PSR-3](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-3-logger-interface.md) logger interface available to WordPress through the implementation of the excellent Monolog.
 
 ## Installation
@@ -39,7 +41,7 @@ To change any of these defaults, pass the following argument(s) in an array:
 
 ## Change log
 
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+Please see [CHANGELOG](CHANGELOG.md) for information about what has changed recently.
 
 ## Testing
 

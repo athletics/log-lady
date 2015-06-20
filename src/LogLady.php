@@ -15,6 +15,8 @@ use Monolog\Handler\StreamHandler;
 class LogLady extends Logger {
 
     /**
+     * Class constructor
+     *
      * @param array $args {
      *
      *     Optional. An array of arguments.

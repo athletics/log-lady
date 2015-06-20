@@ -26,7 +26,7 @@ class LogLady extends Logger {
  	 *                          ABSPATH . 'wp-content/log-lady.log'
  	 *
  	 *     @type string  level  The logging level.         Default value is
-     *                          Logger::DEBUG
+         *                          Logger::DEBUG
  	 *
  	 * }
      */

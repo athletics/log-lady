@@ -24,8 +24,8 @@ class LogLady extends Logger {
  	 *
  	 *     @type string  path   The path to the log file.  Default value is
  	 *                          ABSPATH . 'wp-content/log-lady.log'
- 	 *
- 	 *     @type string  level  The logging level.         Default value is
+     *
+     *     @type string  level  The loogng level.          Default value is
      *                          Logger::DEBUG
  	 *
  	 * }

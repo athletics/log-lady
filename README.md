@@ -21,7 +21,7 @@ Require Composer's autoload.php from your theme's functions.php. For example, if
 require_once( ABSPATH . 'vendor/autoload.php' );
 ```
 
-Use in your theme files like by adding the following lines:
+Use in your theme files by adding the following lines:
 
 ```php
 <?php

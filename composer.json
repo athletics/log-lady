@@ -1,15 +1,20 @@
 {
 	"name": "athletics/log-lady",
 	"description": "Monolog plugin for WordPress named in honor of Margaret Lanterman",
-	"license": "GPLv3",
-	"homepage": "https://github.com/athletics/log-lady",
-	"type": "wordpress-plugin",
+	"keywords": [
+        "log-lady",
+        "monolog",
+        "wordpress"
+    ],
+    "type": "wordpress-plugin",
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Athletics",
 			"email": "wordpress@athleticsnyc.com"
 		}
 	],
+	"homepage": "https://github.com/athletics/log-lady",
 	"require": {
 		"composer/installers": "~1.0",
 		"monolog/monolog": "~1.4",

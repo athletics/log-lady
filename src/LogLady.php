@@ -14,21 +14,21 @@ use Monolog\Handler\StreamHandler;
  */
 class LogLady extends Logger {
 
-	/**
+    /**
      * @param array $args {
      *
- 	 *     Optional. An array of arguments.
- 	 *
- 	 *     @type string  name   The logging channel.       Default value is
- 	 *                          'LogLady'.
- 	 *
- 	 *     @type string  path   The path to the log file.  Default value is
- 	 *                          ABSPATH . 'wp-content/log-lady.log'
+     *     Optional. An array of arguments.
+     *
+     *     @type string  name   The logging channel.       Default value is
+     *                          'LogLady'.
+     *
+     *     @type string  path   The path to the log file.  Default value is
+     *                          ABSPATH . 'wp-content/log-lady.log'
      *
      *     @type string  level  The loogng level.          Default value is
      *                          Logger::DEBUG
- 	 *
- 	 * }
+     *
+     * }
      */
 	public function __construct( $args = array() ) {
 
